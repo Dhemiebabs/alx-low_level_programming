@@ -4,7 +4,7 @@
  * main - Prints all possible combinations of single-digit numbers.
  *        only using putchar and without char variables.
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -15,9 +15,11 @@ int main(void)
 		putchar((num % 10) + '0');
 		num++;
 		while (num == 9)
+		{
 			continue;
 		putchar(',');
 		putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
