@@ -3,9 +3,8 @@
 
 /**
  * Athour - Demilade Olujide Babajide
- * _putchar, followed by a new line.
- *
- * main - Entry point
+ * main - Print "_putchar", followed by a new line.
+ * 
  *
  * Return: Always 0 (Success)
  */
