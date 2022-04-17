@@ -1,12 +1,14 @@
+/*
+ * Auth: Demilade Olujide Babajide
+ */
+
 #include <unistd.h>
 #include "main.h"
 
 /**
- * Athour - Demilade Olujide Babajide
  * main - Print "_putchar", followed by a new line.
  *
- *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 
 int main(void)
