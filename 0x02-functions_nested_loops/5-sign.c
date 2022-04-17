@@ -9,7 +9,9 @@
  *  print_sign - Write a function that prints the sign of a number.
  * @c: The character to be checked.
  *
- * Return: 1 if character is letter, lowercase or uppercase, 0 otherwise.
+ * Return: 1 if the number is greater than zero,
+ *         0 if the number is zero,
+ *         -1 if the number is less than zero.
  */
 
 int print_sign(int n)
