@@ -14,22 +14,22 @@
 
 int main(void)
 {
-	int count;
-	unsigned long fib1 = 0, fib2 = 1, sum;
+	int count = 0, num1 = 0, num2 = 1, sum;
 
-	for (count = 0; count < 50; count++)
+	for (count = 0; count < 50; count+=)
 	{
-		sum = fib1 + fib2;
-		printf("%lu", sum);
+		sum = num1 + num2;
+		printf("%d", sum);
 
-		fib1 = fib2;
-		fib2 = sum;
+		num1 = num2;
+		num2 = sum;
+		count++;
 
 		if (count == 49)
 			printf("\n");
 		else
-			printf(", ");
+			printf(",");
 	}
-
 	return (0);
 }
+
